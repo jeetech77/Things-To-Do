@@ -1,3 +1,54 @@
 *{
+    transition: all .4s linear;
     margin: 0%;
+}
+body{
+    color: white;
+    background: url(./images/bg.jpg) center center no-repeat fixed;
+    background-size: 100% 100% ;
+}
+h1{
+    text-align: center;
+    margin: 2rem;
+}
+.container{
+    text-align: center;
+}
+.container ul{
+    max-width: 60%;
+    padding: 0%;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container ul li button{
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: inherit;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    margin: .5rem;
+    padding: .3rem;
+    width: 9rem;
+}
+.container ul li button:hover{
+    background-color: rgba(126, 119, 119, 0.404);
+}
+@media screen and (max-width:800px){
+    .container ul{
+        max-width: 100%;
+    }
+}
+.output-area{
+    margin: 1rem;
+
+}
+.output-area div{
+    margin: 1rem;
+    font-weight: 800;
+    font-size: larger;
 }
