@@ -7,7 +7,7 @@ const participantsNumber = document.querySelector(".participants");
 // TODO: Logic here 
 
 let activityType = "education";
-let url = "http://www.boredapi.com/api/activity";
+let url = "https://www.boredapi.com/api/activity";
 function constructUrl(activity) {
     return `${url}?type=${activity}`
 }
