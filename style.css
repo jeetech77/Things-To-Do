@@ -3,6 +3,7 @@
     margin: 0%;
 }
 body{
+    position: absolute;
     color: white;
     background: url(./images/bg.jpg) center center no-repeat fixed;
     background-size: 100% 100% ;
@@ -12,6 +13,7 @@ h1{
     margin: 2rem;
 }
 .container{
+    height: 80vh;
     text-align: center;
 }
 .container ul{
@@ -48,7 +50,24 @@ h1{
 
 }
 .output-area div{
+    min-height: 5vh;
     margin: 1rem;
     font-weight: 800;
     font-size: larger;
+}
+footer p{
+    text-align: center;
+    color: grey;
+}
+footer p span{
+    font-weight: bold;
+    color:red;
+}
+footer p #socialName a{
+    color: red;
+   text-decoration: none;
+}
+footer p #socialName a:hover {
+    text-decoration: dotted;
+    border-bottom: 1px solid red;
 }
