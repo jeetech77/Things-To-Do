@@ -4,7 +4,7 @@ const allActivityTypes = document.querySelectorAll(".item");
 const activityContent = document.querySelector(".activityContent");
 const participantsNumber = document.querySelector(".participants");
 
-// TODO: Logic here 
+// TODO: Processing here 
 
 let activityType = "education";
 let url = "https://www.boredapi.com/api/activity";
@@ -25,4 +25,4 @@ allActivityTypes.forEach(element => {
     })
 });
 
-//TODO: Rendaring elements here
+
